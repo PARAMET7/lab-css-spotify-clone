@@ -6,3 +6,113 @@ Green: #00B172
 White: #FFF
 
 */
+.nav {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links{
+  display: flex;
+  align-items: end;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.spotImg{
+
+
+  display: flex;
+  align-items: start;
+  width: 20%;
+  height: 20%;
+}
+
+.h1Style{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+  color: aliceblue;
+  justify-content:center;
+}
+.h1Style1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 40px;
+  color: aliceblue;
+  justify-content:center;
+}
+
+
+.paraStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.nav-link {
+  color: gray;
+  text-underline-position:unset;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.box{
+  display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center text */
+    border: 1px #ddd; /* Add a border around the box */
+    padding: 20px; /* Add padding inside the box */
+    width: 300px; /* Set a fixed width for the box */
+    margin: 20px; /* Add margin around the box */
+    background-color: #f9f9f9;
+}
+.icon{
+  width: 15%;
+  height: 15%;
+}
+
+.footerAjusent{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footerContainer{
+  display: flex;
+    flex-direction: row; /* Stack children vertically */
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center text */
+    border: 1px #ddd; /* Add a border around the box */
+    padding: 20px; /* Add padding inside the box */
+    width: 800px; /* Set a fixed width for the box */
+    margin: 20px; /* Add margin around the box */
+    background-color: #216a22;
+    color: white;
+}
+
+.spotAppImg{
+  width: 40%;
+  height: auto;
+}
